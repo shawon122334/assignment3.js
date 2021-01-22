@@ -30,7 +30,7 @@ function budgetCalculator(watch, mobile, laptop) {
     }
 }
 // pass value to function to see the result
-budgetCalculator(2,2, 2);
+// budgetCalculator(2,2, 2);
 // --------------------------
 
 
