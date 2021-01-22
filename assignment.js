@@ -20,7 +20,7 @@ function budgetCalculator(watch, mobile, laptop) {
     if (watch < 0 || mobile < 0 || laptop < 0) {
         console.log("this is negative quantity.please put positive quantity");
     }
-    else if (watch > 0 || watch > 0 || watch > 0) {
+    else if (watch > 0 && watch > 0 && watch > 0) {
         watchPrice = 50 * watch;
         mobilePrice = 100 * mobile;
         laptopPrice = 500 * laptop;
@@ -30,7 +30,7 @@ function budgetCalculator(watch, mobile, laptop) {
     }
 }
 // pass value to function to see the result
-// budgetCalculator(2,2, 2);
+budgetCalculator(2,2, 2);
 // --------------------------
 
 
